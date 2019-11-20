@@ -59,48 +59,7 @@ public class personel {
         return s.nextInt();
 
     }
-    
-    void personelcheck(String ad)
-    {
-        for (int i = 0; i < this.isim.size(); i++) 
-        {
-            if (isim == null ? String.valueOf(this.isim.get(i)) == null : isim.equals(String.valueOf(this.isim.get(i)))) {
-                this.indis.add(i);
-            }
-
-        }
-         for (int i = 0; i < this.indis.size(); i++) 
-        {
-
-            int indis = (Integer) this.indis.get(i);
-            System.out.format("Personel %d Personel numarası: %d , İsim Soyisim : %s%s , Şirketteki Ünvanı: %s, Yaş: %d\n", i, this.numara.get(indis), this.isim.get(indis), this.soyisim.get(indis), this.unvan.get(indis), this.yas.get(indis));
-
-        }
-
-        indis.clear();
-    }
-    
-    
-    
-    
-    void personelcheck(int numara) /*overload*/
-    {
-        for (int i = 0; i < this.numara.size(); i++)
-        {
-            if (numara == (Integer)this.numara.get(i)) {
-                this.indis.add(i);
-            }
-        }
-        for (int i = 0; i < this.indis.size(); i++) {
-
-            int indis = (Integer) this.indis.get(i);
-            System.out.format("Personel %d Personel numarası: %d , İsim Soyisim : %s%s , Şirketteki Ünvanı: %s, Yaş: %d\n", i, this.numara.get(indis), this.isim.get(indis), this.soyisim.get(indis), this.unvan.get(indis), this.yas.get(indis));
-
-        }
-
-        indis.clear();
-    }
-    
+   
     
     
     
@@ -163,6 +122,46 @@ public class personel {
     }
     
     
+       void personelcheck(String ad)
+    {
+        for (int i = 0; i < this.isim.size(); i++) 
+        {
+            if (isim == null ? String.valueOf(this.isim.get(i)) == null : isim.equals(String.valueOf(this.isim.get(i)))) {
+                this.indis.add(i);
+            }
+
+        }
+         for (int i = 0; i < this.indis.size(); i++) 
+        {
+
+            int indis = (Integer) this.indis.get(i);
+            System.out.format("Personel %d Personel numarası: %d , İsim Soyisim : %s%s , Şirketteki Ünvanı: %s, Yaş: %d\n", i, this.numara.get(indis), this.isim.get(indis), this.soyisim.get(indis), this.unvan.get(indis), this.yas.get(indis));
+
+        }
+
+        indis.clear();
+    }
+    
+    
+    
+    
+    void personelcheck(int numara) /*overload*/
+    {
+        for (int i = 0; i < this.numara.size(); i++)
+        {
+            if (numara == (Integer)this.numara.get(i)) {
+                this.indis.add(i);
+            }
+        }
+        for (int i = 0; i < this.indis.size(); i++) {
+
+            int indis = (Integer) this.indis.get(i);
+            System.out.format("Personel %d Personel numarası: %d , İsim Soyisim : %s%s , Şirketteki Ünvanı: %s, Yaş: %d\n", i, this.numara.get(indis), this.isim.get(indis), this.soyisim.get(indis), this.unvan.get(indis), this.yas.get(indis));
+
+        }
+
+        indis.clear();
+    }
     
    
 
