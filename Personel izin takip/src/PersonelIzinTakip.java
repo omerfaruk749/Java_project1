@@ -26,7 +26,22 @@ public class PersonelIzinTakip {
         int secim = anamenu();
         
        
-        while (secim>=0 && secim<7)
+            static int anamenu() {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("0 Personel işlemleri...");
+        System.out.println("1 Unvanınıza göre kullanabileceğiniz izin günü miktarını görüntüle...");
+        System.out.println("2 İzin kullan...");
+        System.out.println("3 Programı kapat...");
+        System.out.print("\nNe yapmak istiyorsunuz? --- ");
+        int secim = input.nextInt();
+        return secim;
+
+    }  
+        
+        
+        while (secim>=0 && secim<4)
         {
             switch(secim)
             {
@@ -112,17 +127,5 @@ public class PersonelIzinTakip {
     
     
     
-    static int anamenu() {
-
-        Scanner input = new Scanner(System.in);
-
-        System.out.println("0 Personel işlemleri...");
-        System.out.println("1 Unvanınıza göre kullanabileceğiniz izin günü miktarını görüntüle...");
-        System.out.println("2 İzin kullan...");
-        System.out.println("3 Programı kapat...");
-        System.out.print("\nNe yapmak istiyorsunuz? --- ");
-        int secim = input.nextInt();
-        return secim;
-
-    }    
+  
 }
