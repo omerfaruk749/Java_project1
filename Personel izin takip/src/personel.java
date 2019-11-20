@@ -164,74 +164,7 @@ public class personel {
     
     
     
-    
-    
-    
-
-    public ArrayList getIsim() {
-        return isim;
-    }
-
-    public void setIsim(ArrayList isim) {
-        this.isim = isim;
-    }
-
-    public ArrayList getSoyisim() {
-        return soyisim;
-    }
-
-    public void setSoyisim(ArrayList soyisim) {
-        this.soyisim = soyisim;
-    }
-
-    public ArrayList getYas() {
-        return yas;
-    }
-
-    public void setYas(ArrayList yas) {
-        this.yas = yas;
-    }
-
-    public ArrayList getNumara() {
-        return numara;
-    }
-
-    public void setNumara(ArrayList numara) {
-        this.numara = numara;
-    }
-
-    public ArrayList getUnvan() {
-        return unvan;
-    }
-
-    public void setUnvan(ArrayList unvan) {
-        this.unvan = unvan;
-    }
-
-    public ArrayList getIndis() {
-        return indis;
-    }
-
-    public void setIndis(ArrayList indis) {
-        this.indis = indis;
-    }
-
-    public Scanner getS() {
-        return s;
-    }
-
-    public void setS(Scanner s) {
-        this.s = s;
-    }
-
-    public izinSinifi getTodo() {
-        return todo;
-    }
-
-    public void setTodo(izinSinifi todo) {
-        this.todo = todo;
-    }
-        
+   
 
     
     }
